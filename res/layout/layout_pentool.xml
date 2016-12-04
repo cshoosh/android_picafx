@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:id="@+id/layPenTool">
+	<TextView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/txtPenLinear"
+	    style="@style/textStyle"
+	    android:drawableTop="@drawable/line_tool"
+	    android:text="Linear"/>
+	<TextView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/txtPenMagic"
+	    style="@style/textStyle"
+	    android:drawableTop="@drawable/magic_tool"
+	    android:text="Magic"/>
+	<!-- <TextView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/txtPenCurve"
+	    style="@style/textStyle"
+	    android:text="Curve"/> -->
+	
+</LinearLayout>

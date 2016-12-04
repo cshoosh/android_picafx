@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <!--
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/layPathhistory">
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/textStyle"
+        android:gravity="center"
+        android:drawableLeft="@drawable/n"
+        android:drawablePadding="3dp"
+        android:text="Delete"
+        android:id="@+id/txtDelete"
+        />
+    </LinearLayout>
+    -->
+    <LinearLayout
+        android:id="@+id/gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:animateLayoutChanges="true" />
+
+</HorizontalScrollView>

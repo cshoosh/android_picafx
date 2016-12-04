@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:background="#7caeaeae"
+    android:orientation="horizontal" >
+    <FrameLayout android:id="@+id/laySimpleMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.88">
+        
+    </FrameLayout>
+    <!-- Main & Save/Cancel Layout -->
+    <LinearLayout android:id="@+id/laySaveCancel" 
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.12"
+        android:orientation="vertical">
+        	<ImageView android:id="@+id/txtDelete"
+                android:scaleType="fitXY"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="top"
+                android:visibility="gone"
+                android:src="@drawable/trash"/>    
+            <ImageView android:id="@+id/txtSave"
+                android:scaleType="fitXY"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="top"
+                android:src="@drawable/tick"/>
+            <ImageView android:id="@+id/txtCancel"
+                android:scaleType="fitXY"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/undo"/> 
+    </LinearLayout>
+</LinearLayout>

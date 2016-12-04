@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layPreEffects"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/txtPreEffectSepia"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/sepia"
+            android:text="Sepia" />
+        <TextView
+            android:id="@+id/txtPreEffectGreyscale"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/greyscale"
+            android:text="Grey Scale" />
+        <TextView
+            android:id="@+id/txtPreEffectRedToGreen"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/red_to_green"
+            android:text="Red To Green" />
+        <TextView
+            android:id="@+id/txtPreEffectRedToBlue"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/red_to_blue"
+            android:text="Red To Blue" />
+        <TextView
+            android:id="@+id/txtPreEffectBlueToGreen"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/blue_to_green"
+            android:text="Blue To Green" />
+        <TextView
+            android:id="@+id/txtPreEffectRedTone"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/red_tone"
+            android:text="Red Tone" />
+        <TextView
+            android:id="@+id/txtPreEffectGreenTone"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/green_tone"
+            android:text="Green Tone" />
+        <TextView
+            android:id="@+id/txtPreEffectBlueTone"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/blue_tone"
+            android:text="Blue Tone" />
+        <TextView
+            android:id="@+id/txtPreEffectYellowTone"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/yellow_tone"
+            android:text="Yellow Tone" />
+        <TextView
+            android:id="@+id/txtPreEffectInvert"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/invert"
+            android:text="Invert" />
+    </LinearLayout>
+    
+</HorizontalScrollView>

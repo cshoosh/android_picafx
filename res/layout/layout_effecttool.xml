@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layEffects"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtEffectGBlur"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/gussian_blur"
+            android:text="Gaussian Blur" />
+
+        <TextView
+            android:id="@+id/txtEffectLBlur"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/linear_blur"
+            android:text="Linear Blur" />
+
+        <TextView
+            android:id="@+id/txtEffectSBlur"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/smart_blur"
+            android:text="Smart Blur" />
+
+        <TextView
+            android:id="@+id/txtEffectPosterize"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/poster"
+            android:text="Posterize" />
+
+        <TextView
+            android:id="@+id/txtEffectBokeh"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/bokeh"
+            android:text="Bokeh" />
+
+        <TextView
+            android:id="@+id/txtEffectBnW"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/black_n_white"
+            android:text="Black &amp; White" />
+
+        <TextView
+            android:id="@+id/txtEffectSharp"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/sharpen"
+            android:text="Sharpness" />
+
+        <TextView
+            android:id="@+id/txtEffectEmboss"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/emboss"
+            android:text="Emboss" />
+
+        <TextView
+            android:id="@+id/txtEffectStone"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/stone"
+            android:text="Stone" />
+
+        <TextView
+            android:id="@+id/txtEffectPixellate"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/pixelatte"
+            android:text="Pixellate" />
+
+        <TextView
+            android:id="@+id/txtEffectGlass"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:drawableTop="@drawable/glass"
+            android:text="Glass" />
+
+    </LinearLayout>
+
+</HorizontalScrollView>

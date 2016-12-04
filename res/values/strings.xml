@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="app_name" >PicAfx Free</string>
+    <string name="action_save">Save</string>
+    <string name="action_share">Share</string>
+    <string name="action_reset">Reset</string>
+
+    <!-- HardCoded Strings -->
+    <string name="export">Export</string>
+    <string name="crop">Crop</string>
+    <string name="pre_effects">Pre-Effects</string>
+    <string name="effects">Effects</string>
+    <string name="pen_history">Pen History</string>
+    <string name="pen_tool">Pen Tool</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4477487517732949/7645643907</string>
+    
+    <!-- Message and Tips -->
+	<string name="tip_scroll">Scroll on screen to change the effect. Double Tap to enable fullscreen</string>
+	<string name="tip_pentool">Use pen tool or magic tool to make the selection. Use it to clip the image for effects</string>
+</resources>

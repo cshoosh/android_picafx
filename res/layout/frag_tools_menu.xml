@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/layToolsMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7caeaeae"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtPenTool"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/pen_tool"
+            android:text="@string/pen_tool" />
+
+        <TextView
+            android:id="@+id/txtPathHistory"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/path_history_tool"
+            android:text="@string/pen_history" />
+
+        <TextView
+            android:id="@+id/txtEffectsTool"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/effects"
+            android:text="@string/effects" />
+
+        <TextView
+            android:id="@+id/txtPreEffects"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/pre_effects"
+            android:text="@string/pre_effects" />
+
+        <TextView
+            android:id="@+id/txtCropTool"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/crop_tool"
+            android:text="@string/crop" />
+
+        <TextView
+            android:id="@+id/txtSaveTool"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/export_icon"
+            android:text="@string/export" />
+        
+
+        
+      <!--  <TextView
+            android:id="@+id/txtTextTool"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/text"
+            android:text="Text Tool" />   -->
+
+       <!--  <TextView
+            android:id="@+id/txtProperties"
+            style="@style/textStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/properties"
+            android:text="Properties" />  -->     
+
+    </LinearLayout>
+
+</HorizontalScrollView>

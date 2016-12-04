@@ -1,0 +1,51 @@
+<com.zerotwoonelabs.picafxfree.support.MainBackGround xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+	
+    
+    <ImageView android:id="@+id/removead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/removead_state"
+        />
+    
+    <TextView
+        android:id="@+id/imgGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="GALLERY"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" 
+        android:drawableBottom="@drawable/gallery_state" />
+
+    <TextView
+        android:id="@+id/imgCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="CAMERA"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" 
+        android:drawableBottom="@drawable/camera_state" />
+
+    <ImageView
+        android:id="@+id/imgTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imgGallery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/picafx021" />
+   
+</com.zerotwoonelabs.picafxfree.support.MainBackGround>

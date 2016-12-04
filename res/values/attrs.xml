@@ -1,0 +1,17 @@
+<resources>
+    <declare-styleable name="Slider">
+       <attr name="srcButton" format="reference" />
+       <attr name="slideButtonMargin" format="dimension"/>
+       <attr name="Orientation" format="enum">
+           <enum name="left" value="0"/>
+           <enum name="right" value="1"/>
+           <enum name="top" value="2"/>
+           <enum name="bottom" value="3"/>
+       </attr>
+       <attr name="Content" format="reference"/>
+   </declare-styleable>
+   <declare-styleable name="ColorTemplate">
+       <attr name="Hue"     format="float"/>
+   </declare-styleable>
+</resources>
+

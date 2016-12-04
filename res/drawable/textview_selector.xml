@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_focused="true"> 
+        <shape android:shape="rectangle">
+            <corners android:radius="2dp"/>
+            <gradient android:startColor="#d7ffffff"
+                android:endColor="#d7d0dee7"
+                android:centerX="50%"
+                android:centerY="50%"
+                android:type="linear"/>
+        </shape>
+    </item>
+</selector>
